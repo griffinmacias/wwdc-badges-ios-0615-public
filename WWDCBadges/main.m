@@ -13,9 +13,14 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         
-        // insert code here...
+        NSArray *conferenceSpeakers = @[@"Edsger", @"Ada", @"Charles",
+                                 @"Alan", @"Grace", @"Linus", @"Wozniak"];
+        
+        for (NSString *names in conferenceSpeakers) {
+            NSLog(@"Hello, my name is %@", names);
+        
         
     }
     return 0;
 }
-
+}
